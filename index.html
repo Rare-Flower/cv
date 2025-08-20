@@ -1,1 +1,562 @@
+<!DOCTYPE html>
+<!-- saved from url=(0116)file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Morgan — Technical Support Specialist</title>
+  <meta name="description" content="Modern, Apple-inspired single-page resume for a Technical Support Specialist (US market). Editable in-browser with Save-as-HTML.">
+  <style>
+    :root{--bg:#0b0b0c;--bg-2:#0f1012;--text:#f5f7fa;--muted:#aeb4bf;--accent:#5ad6ff;--card:#15171a;--line:rgba(255,255,255,.08);--shadow:0 10px 30px rgba(0,0,0,.35);--radius:22px}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";background:radial-gradient(1400px 600px at 70% -10%,#203142 0%,transparent 60%),radial-gradient(1000px 400px at -10% 0%,#1b2430 0%,transparent 60%),var(--bg);color:var(--text);line-height:1.6;scroll-behavior:smooth}
+    a{color:inherit;text-decoration:none}
+    img{display:block;max-width:100%}
+    .nav{position:fixed;inset:0 0 auto 0;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;z-index:50;transition:background .3s ease,backdrop-filter .3s ease,border-color .3s ease;border-bottom:1px solid transparent}
+    .nav.scrolled{background:rgba(15,16,18,.55);backdrop-filter:saturate(180%) blur(16px);border-color:var(--line)}
+    .logo{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.5px}
+    .logo-badge{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#7bd7ff,#5ad6ff 45%,#a8e7ff);display:grid;place-items:center;color:#00131c;font-weight:900;box-shadow:var(--shadow)}
+    .nav-links{display:flex;align-items:center;gap:2px}
+    .nav a.link{color:var(--muted);margin:0 2px;font-size:14px;padding:8px 10px;border-radius:10px;transition:color .2s,background .2s;position:relative}
+    .nav a.link:hover{color:var(--text);background:rgba(255,255,255,.06)}
+    .nav a.link.active{color:var(--text);background:rgba(255,255,255,.10)}
+    .tools{display:flex;align-items:center;gap:8px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);font-weight:600;cursor:pointer}
+    .btn.primary{background:#e8f7ff;color:#08222c;border-color:transparent}
+    [data-editor]{display:none}
+    body.edit-mode [data-editor]{display:inline-flex}
+    body:not(.edit-mode) [data-editor]{display:none!important;pointer-events:none!important}
+    [contenteditable="true"]{outline:2px dashed rgba(90,214,255,.5);outline-offset:4px;border-radius:10px}
+    .container{width:min(1180px,92%);margin:0 auto}
+    .section{padding:96px 0;border-top:1px solid var(--line)}
+    .kicker{color:var(--accent);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+    h1,h2,h3{margin:0 0 14px 0;line-height:1.15}
+    h1{font-size:clamp(40px,6vw,68px)}
+    h2{font-size:clamp(28px,4.2vw,40px)}
+    p.lead{font-size:clamp(16px,2.2vw,20px);color:#dbe3ec}
+    .muted{color:var(--muted)}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:#d4d8df}
+    .hero-track{position:relative;height:130vh}
+    .hero-inner{position:sticky;top:0;min-height:100vh;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;padding-top:72px}
+    @media (max-width:920px){.hero-inner{grid-template-columns:1fr;gap:24px;padding-top:72px}}
+    .hero-copy{padding:24px 0}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .device-wrap{position:relative;height:min(86vh,740px);display:grid;place-items:center}
+    .device{width:min(560px,86%);transition:transform .15s linear,filter .15s linear;will-change:transform,filter}
+    .hero-image{width:min(560px,86%);max-height:min(86vh,740px);object-fit:cover;border-radius:24px;border:1px solid var(--line);box-shadow:var(--shadow);display:none}
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:920px){.grid.cols-3{grid-template-columns:1fr}.grid.cols-2{grid-template-columns:1fr}}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    .card h3{font-size:20px;margin-bottom:8px}
+    .timeline{position:relative}
+    .timeline:before{content:"";position:absolute;left:14px;top:0;bottom:0;width:2px;background:linear-gradient(#6cdcff,transparent);opacity:.6}
+    .job{position:relative;padding-left:42px;margin:16px 0 24px}
+    .job:before{content:"";position:absolute;left:7px;top:6px;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#5ad6ff,#a8e7ff);box-shadow:0 0 0 4px rgba(90,214,255,.15)}
+    .job h3{margin:0;font-size:18px}
+    .job .meta{color:var(--muted);font-size:14px;margin-top:6px}
+    .job ul{margin:10px 0 0 0;padding-left:18px}
+    .skill-tags{display:flex;gap:10px;flex-wrap:wrap}
+    .project{display:flex;gap:18px;align-items:flex-start}
+    .project img{width:64px;height:64px;border-radius:16px;border:1px solid var(--line);background:#0d1013}
+    form{display:grid;gap:12px}
+    input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0e1114;color:#fff}
+    textarea{min-height:120px}
+    .reveal{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.visible{opacity:1;transform:none}
+    body.edit-mode #degreeImg{cursor:pointer;outline:2px dashed rgba(90,214,255,.35);outline-offset:6px}
+    body.edit-mode #device{cursor:pointer}
+    body.edit-mode .hero-image{cursor:pointer;outline:2px dashed rgba(90,214,255,.35);outline-offset:6px}
+    .gallery{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .thumb{width:84px;height:84px;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:#0d1013}
+    .add-thumb{width:84px;height:84px;border-radius:12px;border:1px dashed var(--line);display:inline-flex;align-items:center;justify-content:center;font-size:28px;line-height:1;cursor:pointer;background:rgba(255,255,255,.04);color:#dbe3ec}
+    .zoomable{cursor:zoom-in}
+    body.edit-mode .zoomable{cursor:pointer}
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+    .lightbox.open{display:flex}
+    .lightbox img{max-width:92vw;max-height:92vh;border-radius:16px;border:1px solid var(--line)}
+  </style>
+</head>
+<body class="">
+  <nav class="nav scrolled" id="nav">
+    <div class="logo">
+      <div class="logo-badge">TS</div>
+      <span data-editable="">Alex Morgan</span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a class="link" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#about">About</a>
+      <a class="link" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#experience">Experience</a>
+      <a class="link" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#skills">Skills</a>
+      <a class="link" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#projects">Projects</a>
+      <a class="link" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#resume">Resume</a>
+      <a class="link" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#education">Education</a>
+      <a class="link active" href="file:///C:/Users/lelou/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/New%20Text%20Document.html#contact">Contact</a>
+    </div>
+    <div class="tools">
+      <button class="btn" id="toggleEdit" title="Toggle edit mode">Toggle Edit</button>
+      <button class="btn" id="saveHtml" data-editor="" title="Save clean HTML" style="display: none;">Save HTML</button>
+      <button class="btn" id="resetHero" data-editor="" title="Reset hero to phone" style="display: none;">Reset Hero</button>
+    </div>
+  </nav>
 
+  <section class="hero-track" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="kicker" data-editable="">Technical Support • Customer Obsession</span>
+        <h1 data-editable="">Technical1 Support Specialist focused on <span style="color:var(--accent)">first-contact resolution</span>.</h1>
+        <p class="lead" data-editable="">I help users fast. 3+ years in high-volume queues (B2C &amp; B2B), with 93% CSAT, strong macOS/Windows/Linux skills, and calm, clear communication.</p>
+        <div class="buttons">
+          <a class="btn" href="mailto:alex.morgan@example.com" data-editable="">Email Me</a>
+          <a class="btn" href="https://www.linkedin.com/in/username" target="_blank" rel="noopener" data-editable="">LinkedIn</a>
+          <span class="pill" data-editable="">San Francisco, CA • Open to Remote (US)</span>
+        </div>
+      </div>
+
+      <div class="device-wrap">
+        <div class="device-glow" aria-hidden="true"></div>
+        <img id="heroImg" class="hero-image" alt="Hero image" style="display:none">
+        <svg class="device" id="device" viewBox="0 0 400 800" role="img" aria-label="Phone mockup" style="transform: translateY(-16px) scale(0.8); filter: blur(1.8px);">
+          <defs>
+            <lineargradient id="frame" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#cfd8dc"></stop>
+              <stop offset="100%" stop-color="#93a4ad"></stop>
+            </lineargradient>
+            <lineargradient id="glass" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#051019"></stop>
+              <stop offset="100%" stop-color="#0f1d28"></stop>
+            </lineargradient>
+          </defs>
+          <rect x="10" y="10" width="380" height="780" rx="56" ry="56" fill="url(#frame)"></rect>
+          <rect x="18" y="18" width="364" height="764" rx="50" ry="50" fill="#0a0f14"></rect>
+          <rect x="28" y="72" width="344" height="676" rx="36" ry="36" fill="url(#glass)"></rect>
+          <defs>
+            <clippath id="screen-clip">
+              <rect x="28" y="72" width="344" height="676" rx="36" ry="36"></rect>
+            </clippath>
+          </defs>
+          <g clip-path="url(#screen-clip)">
+            <radialgradient id="g1" cx="50%" cy="20%" r="60%">
+              <stop offset="0%" stop-color="#5ad6ff"></stop>
+              <stop offset="100%" stop-color="#0f1d28"></stop>
+            </radialgradient>
+            <rect x="28" y="72" width="344" height="676" fill="url(#g1)"></rect>
+            <circle cx="110" cy="180" r="120" fill="rgba(255,255,255,.06)"></circle>
+            <circle cx="300" cy="340" r="180" fill="rgba(255,255,255,.05)"></circle>
+            <circle cx="180" cy="540" r="140" fill="rgba(255,255,255,.04)"></circle>
+            <image id="deviceScreenImg" x="28" y="72" width="344" height="676" preserveAspectRatio="xMidYMid slice" href="" style="display:none"></image>
+          </g>
+          <rect x="160" y="32" width="80" height="10" rx="5" fill="#1a1f25"></rect>
+          <circle cx="230" cy="37" r="3" fill="#0b131a"></circle>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container grid cols-2">
+      <div>
+        <span class="kicker">About</span>
+        <h2 data-editable="">Human support. Engineer’s rigor.</h2>
+        <p class="lead" data-editable="">I specialize in user support for SaaS and consumer devices: triage, troubleshooting, documentation, and feedback loops with Engineering. I love automating repetitive tasks to cut handle time without losing the human touch.</p>
+        <div class="skill-tags" style="margin-top:10px">
+          <span class="pill" data-editable="">Zendesk • Jira</span>
+          <span class="pill" data-editable="">macOS • Windows • Linux</span>
+          <span class="pill" data-editable="">Networking (DNS, VPN, 802.1X)</span>
+          <span class="pill" data-editable="">Scripting (PowerShell, Bash)</span>
+        </div>
+      </div>
+      <div class="card reveal visible">
+        <h3>Quick facts</h3>
+        <ul class="muted">
+          <li data-editable=""><strong>CSAT:</strong> 93% (12-month trailing)</li>
+          <li data-editable=""><strong>FCR:</strong> 78% first-contact resolution</li>
+          <li data-editable=""><strong>Speed:</strong> 48 sec avg first response</li>
+          <li data-editable=""><strong>Escalations:</strong> ↓32% after KB revamp</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <span class="kicker">Experience</span>
+      <h2 data-editable="">Recent roles</h2>
+      <div class="timeline">
+        <div class="job card reveal visible">
+          <h3 data-editable="">Technical Support Specialist — Nimbus Apps</h3>
+          <div class="meta" data-editable="">San Francisco, CA • Jan 2023 – Present</div>
+          <ul>
+            <li data-editable="">Resolved 55+ tickets/day across chat, email, and phone with 95% SLA compliance.</li>
+            <li data-editable="">Built 20+ internal KB articles; reduced new-hire ramp by 2 weeks.</li>
+            <li data-editable="">Automated log collection (PowerShell/Bash) → cut TTR by 18%.</li>
+          </ul>
+        </div>
+        <div class="job card reveal visible">
+          <h3 data-editable="">Support Associate — Brightline Devices</h3>
+          <div class="meta" data-editable="">Austin, TX • Jul 2021 – Dec 2022</div>
+          <ul>
+            <li data-editable="">Diagnosed macOS/Windows kernel extension issues; partnered with Eng for hotfixes.</li>
+            <li data-editable="">Drove CSAT from 88% → 93% via better triage and proactive updates.</li>
+            <li data-editable="">Owned weekly incident review; authored postmortems with corrective actions.</li>
+          </ul>
+        </div>
+        <div class="job card reveal visible">
+          <h3 data-editable="">IT Help Desk Intern — City College</h3>
+          <div class="meta" data-editable="">New York, NY • Sep 2020 – Jun 2021</div>
+          <ul>
+            <li data-editable="">Supported ~2,000 students/faculty: account resets, MDM enrollments, Wi-Fi issues.</li>
+            <li data-editable="">Rolled out Jamf policies; standardized onboarding checklist.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="container grid cols-3">
+      <div class="card reveal visible">
+        <h3>Core</h3>
+        <div class="skill-tags">
+          <span class="pill" data-editable="">Troubleshooting</span>
+          <span class="pill" data-editable="">Ticketing &amp; Escalation</span>
+          <span class="pill" data-editable="">Incident Response</span>
+          <span class="pill" data-editable="">Root Cause Analysis</span>
+        </div>
+      </div>
+      <div class="card reveal visible">
+        <h3>Tools</h3>
+        <div class="skill-tags">
+          <span class="pill" data-editable="">Zendesk</span>
+          <span class="pill" data-editable="">Jira</span>
+          <span class="pill" data-editable="">Confluence</span>
+          <span class="pill" data-editable="">Freshdesk</span>
+          <span class="pill" data-editable="">Jamf</span>
+          <span class="pill" data-editable="">Intune</span>
+          <span class="pill" data-editable="">TeamViewer</span>
+        </div>
+      </div>
+      <div class="card reveal visible">
+        <h3>Tech</h3>
+        <div class="skill-tags">
+          <span class="pill" data-editable="">macOS • Windows • Linux</span>
+          <span class="pill" data-editable="">Networking, VPN, SSO (Okta)</span>
+          <span class="pill" data-editable="">SQL basics</span>
+          <span class="pill" data-editable="">Bash • PowerShell</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="kicker">Impact</span>
+      <h2 data-editable="">Selected case studies</h2>
+      <div class="grid cols-2">
+        <div class="card project reveal visible">
+          <img alt="icon" src="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;128&#39; height=&#39;128&#39;%3E%3Crect width=&#39;100%25&#39; height=&#39;100%25&#39; rx=&#39;24&#39; ry=&#39;24&#39; fill=&#39;%2312191f&#39;/%3E%3Ccircle cx=&#39;64&#39; cy=&#39;64&#39; r=&#39;30&#39; fill=&#39;%235ad6ff&#39; opacity=&#39;.5&#39;/%3E%3C/svg%3E">
+          <div>
+            <h3 data-editable="">Faster diagnostics for kernel panics</h3>
+            <p class="muted" data-editable="">Created a guided log collector and repro script for macOS clients. Reduced average time-to-root-cause from 2 days → 6 hours, and escalations to Tier 3 by 27%.</p>
+          </div>
+        </div>
+        <div class="card project reveal visible">
+          <img alt="icon" src="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;128&#39; height=&#39;128&#39;%3E%3Crect width=&#39;100%25&#39; height=&#39;100%25&#39; rx=&#39;24&#39; ry=&#39;24&#39; fill=&#39;%2312191f&#39;/%3E%3Cpath d=&#39;M32 84h64v8H32zM32 36h64v8H32zM32 60h64v8H32z&#39; fill=&#39;%235ad6ff&#39; opacity=&#39;.5&#39;/%3E%3C/svg%3E">
+          <div>
+            <h3 data-editable="">Knowledge base revamp</h3>
+            <p class="muted" data-editable="">Rewrote top 30 articles with clearer decision trees and screenshots. Bounce rate dropped 41%; deflection rate improved 18%.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="resume">
+    <div class="container">
+      <span class="kicker">Resume</span>
+      <h2 data-editable="">My resume</h2>
+      <div class="card reveal visible" style="display:grid;place-items:center;min-height:220px;">
+        <img id="resumeImg" class="zoomable" alt="Resume image" src="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;800&#39; height=&#39;1000&#39;%3E%3Crect width=&#39;100%25&#39; height=&#39;100%25&#39; rx=&#39;24&#39; ry=&#39;24&#39; fill=&#39;%23111916&#39;/%3E%3Ctext x=&#39;50%25&#39; y=&#39;50%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23a9b4bf&#39; font-family=&#39;Arial&#39; font-size=&#39;24&#39;%3EUpload your resume image%3C/text%3E%3C/svg%3E" style="max-width:100%;border-radius:16px;border:1px solid var(--line);">
+        <div style="margin-top: 14px; display: none;" data-editor="">
+          <label class="btn" for="uploadResume">Upload Resume Image</label>
+          <input id="uploadResume" type="file" accept="image/*" style="display:none">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="container grid cols-2">
+      <div>
+        <span class="kicker">Education</span>
+        <h2 data-editable="">Bachelor of Science in Information Technology</h2>
+        <p class="muted" data-editable="">University of Example — 2017 – 2021 • GPA 3.6/4.0</p>
+        <div class="skill-tags" style="margin-top:6px">
+          <span class="pill" data-editable="">Relevant coursework: Networking, OS, Databases</span>
+          <span class="pill" data-editable="">Senior project: Helpdesk automation bot</span>
+        </div>
+        <div style="margin-top: 14px; display: none;" data-editor="">
+          <label class="btn" for="uploadDegree">Upload Bachelor Certificate</label>
+          <input id="uploadDegree" type="file" accept="image/*" style="display:none">
+        </div>
+      </div>
+      <div class="card reveal visible" style="display:grid;place-items:center;min-height:220px;">
+        <img id="degreeImg" class="zoomable" alt="Bachelor&#39;s certificate" src="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;640&#39; height=&#39;420&#39;%3E%3Crect width=&#39;100%25&#39; height=&#39;100%25&#39; rx=&#39;24&#39; ry=&#39;24&#39; fill=&#39;%23111916&#39;/%3E%3Ctext x=&#39;50%25&#39; y=&#39;50%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23a9b4bf&#39; font-family=&#39;Arial&#39; font-size=&#39;18&#39;%3EUpload your certificate image%3C/text%3E%3C/svg%3E" style="max-width:100%;border-radius:16px;border:1px solid var(--line);" role="button" tabindex="0" aria-label="Upload Bachelor certificate image" title="Click to upload certificate">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="certs">
+    <div class="container grid cols-2">
+      <div>
+        <span class="kicker">Certifications</span>
+        <div class="skill-tags" style="margin-top:6px">
+          <span class="pill" data-editable="">CompTIA A+</span>
+          <span class="pill" data-editable="">Jamf 100</span>
+          <span class="pill" data-editable="">ITIL Foundation</span>
+        </div>
+      </div>
+      <div class="card reveal visible">
+        <span class="kicker">Gallery</span>
+        <div class="gallery" id="testiGallery">
+          <button class="add-thumb" id="addThumb" data-editor="" aria-label="Add image" aria-hidden="true" style="display: none;" disabled="">+</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container grid cols-2">
+      <div>
+        <span class="kicker">Contact</span>
+        <h2 data-editable="">Let’s work together</h2>
+        <p class="muted" data-editable="">Email <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a> or use the form. I’m open to US remote roles and onsite in SF Bay Area.</p>
+        <div class="skill-tags" style="margin-top:10px">
+          <span class="pill" data-editable="">+1 (415) 555-0132</span>
+          <span class="pill" data-editable="">github.com/username</span>
+          <span class="pill" data-editable="">linkedin.com/in/username</span>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <footer class="section" style="padding:40px 0;border-top:1px solid var(--line)">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+      <div class="muted">© <span id="year">2025</span> <span data-editable="">Alex Morgan — Technical Support Specialist</span></div>
+      
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><img alt=""></div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const id=a.getAttribute('href').slice(1);
+        const el=document.getElementById(id);
+        if(!el) return;
+        e.preventDefault();
+        const y=el.getBoundingClientRect().top+window.scrollY-64;
+        window.scrollTo({top:y,behavior:'smooth'});
+      });
+    });
+    const nav=document.getElementById('nav');
+    const onScrollNav=()=>{if(window.scrollY>8) nav.classList.add('scrolled'); else nav.classList.remove('scrolled')};
+    onScrollNav();window.addEventListener('scroll',onScrollNav,{passive:true});
+    (function(){
+      const track=document.getElementById('hero');
+      const device=document.getElementById('device');
+      const prefersReduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let ticking=false;
+      function update(){
+        const rect=track.getBoundingClientRect();
+        const total=Math.max(rect.height-window.innerHeight,1);
+        const scrolled=Math.min(Math.max(-rect.top,0),total);
+        const t=scrolled/total;
+        const scale=1.06-0.26*t;
+        const translateY=-16*t;
+        const blur=1.8*t;
+        if(!prefersReduced){
+          device.style.transform=`translateY(${translateY}px) scale(${scale})`;
+          device.style.filter=`blur(${blur}px)`;
+        }
+        ticking=false;
+      }
+      function onScroll(){if(!ticking){window.requestAnimationFrame(update);ticking=true}}
+      update();
+      window.addEventListener('scroll',onScroll,{passive:true});
+      window.addEventListener('resize',update);
+    })();
+    const io=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}})},{threshold:.18});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+    const toggleBtn=document.getElementById('toggleEdit');
+    const saveBtn=document.getElementById('saveHtml');
+    if(toggleBtn){
+      toggleBtn.addEventListener('click',()=>{
+        document.body.classList.toggle('edit-mode');
+        const editing=document.body.classList.contains('edit-mode');
+        document.querySelectorAll('[data-editable]').forEach(el=>{if(editing){el.setAttribute('contenteditable','true')}else{el.removeAttribute('contenteditable')}});
+        toggleBtn.textContent=editing?'Editing… (click to finish)':'Toggle Edit';
+        syncEditorUI();
+      });
+    }
+    function download(filename,text){
+      const blob=new Blob([text],{type:'text/html;charset=utf-8'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a');
+      a.href=url;a.download=filename;document.body.appendChild(a);a.click();
+      setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},0);
+    }
+    function getCleanHtml(){
+      const clone=document.documentElement.cloneNode(true);
+      clone.querySelectorAll('[data-editor]').forEach(el=>el.remove());
+      clone.querySelectorAll('[contenteditable]').forEach(el=>el.removeAttribute('contenteditable'));
+      clone.querySelectorAll('[data-editable]').forEach(el=>el.removeAttribute('data-editable'));
+      clone.querySelector('body')?.classList.remove('edit-mode');
+      clone.querySelector('.tools')?.remove();
+      clone.getElementById('toggleEdit')?.remove();
+      clone.getElementById('saveHtml')?.remove();
+      return '<!DOCTYPE html>\n'+clone.outerHTML;
+    }
+    if(saveBtn){saveBtn.addEventListener('click',()=>{const html=getCleanHtml();download('technical-support-resume.html',html)})}
+    const up=document.getElementById('uploadDegree');
+    const degreeImg=document.getElementById('degreeImg');
+    if(up){up.addEventListener('change',(e)=>{const file=e.target.files&&e.target.files[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{degreeImg.src=reader.result};reader.readAsDataURL(file)})}
+    function openFilePicker(){
+      const input=document.getElementById('uploadDegree');
+      if(input&&getComputedStyle(input).display!=='none'){input.click();return}
+      const temp=document.createElement('input');
+      temp.type='file';temp.accept='image/*';temp.style.position='fixed';temp.style.left='-9999px';
+      document.body.appendChild(temp);
+      temp.addEventListener('change',()=>{const file=temp.files&&temp.files[0];if(!file){temp.remove();return}const reader=new FileReader();reader.onload=()=>{degreeImg.src=reader.result;temp.remove()};reader.readAsDataURL(file)});
+      temp.click();
+    }
+    function setImageInteractive(enabled){
+      if(!degreeImg)return;
+      if(enabled){
+        degreeImg.setAttribute('role','button');
+        degreeImg.setAttribute('tabindex','0');
+        degreeImg.setAttribute('aria-label','Upload Bachelor certificate image');
+        degreeImg.title='Click to upload certificate';
+      }else{
+        degreeImg.removeAttribute('role');
+        degreeImg.removeAttribute('tabindex');
+        degreeImg.removeAttribute('aria-label');
+        degreeImg.removeAttribute('title');
+      }
+    }
+    function openLightbox(src){
+      const lb=document.getElementById('lightbox');
+      const im=lb.querySelector('img');
+      im.src=src;
+      lb.classList.add('open');
+      lb.setAttribute('aria-hidden','false');
+    }
+    function closeLightbox(){
+      const lb=document.getElementById('lightbox');
+      const im=lb.querySelector('img');
+      lb.classList.remove('open');
+      lb.setAttribute('aria-hidden','true');
+      im.removeAttribute('src');
+    }
+    const lightboxEl=document.getElementById('lightbox');
+    lightboxEl.addEventListener('click',closeLightbox);
+    document.addEventListener('keydown',e=>{if(e.key==='Escape') closeLightbox()});
+    if(degreeImg){
+      degreeImg.addEventListener('click',()=>{
+        if(document.body.classList.contains('edit-mode')){openFilePicker()}
+        else{if(degreeImg.src) openLightbox(degreeImg.src)}
+      });
+      degreeImg.addEventListener('keydown',(e)=>{if(!document.body.classList.contains('edit-mode'))return;if(e.key==='Enter'||e.key===' '){e.preventDefault();openFilePicker()}});
+    }
+    const deviceWrap=document.querySelector('.device-wrap');
+    const deviceSvg=document.getElementById('device');
+    const heroImg=document.getElementById('heroImg');
+    const resetHeroBtn=document.getElementById('resetHero');
+    function openHeroPicker(){
+      const input=document.createElement('input');
+      input.type='file';input.accept='image/*';input.style.position='fixed';input.style.left='-9999px';
+      document.body.appendChild(input);
+      input.addEventListener('change',()=>{
+        const file=input.files&&input.files[0];if(!file){input.remove();return}
+        const reader=new FileReader();
+        reader.onload=()=>{heroImg.src=reader.result;heroImg.style.display='block';if(deviceSvg) deviceSvg.style.display='none';input.remove()};
+        reader.readAsDataURL(file);
+      });
+      input.click();
+    }
+    function setHeroInteractive(enabled){
+      if(!deviceWrap)return;
+      if(enabled){
+        deviceWrap.setAttribute('role','button');
+        deviceWrap.setAttribute('tabindex','0');
+        deviceWrap.setAttribute('aria-label','Upload hero image');
+        deviceWrap.title='Click to set hero image';
+      }else{
+        deviceWrap.removeAttribute('role');
+        deviceWrap.removeAttribute('tabindex');
+        deviceWrap.removeAttribute('aria-label');
+        deviceWrap.removeAttribute('title');
+      }
+    }
+    if(deviceWrap){
+      deviceWrap.addEventListener('click',()=>{if(!document.body.classList.contains('edit-mode')) return;openHeroPicker()});
+      deviceWrap.addEventListener('keydown',(e)=>{if(!document.body.classList.contains('edit-mode')) return;if(e.key==='Enter'||e.key===' '){e.preventDefault();openHeroPicker()}});
+    }
+    if(resetHeroBtn){resetHeroBtn.addEventListener('click',()=>{if(heroImg){heroImg.removeAttribute('src');heroImg.style.display='none'}if(deviceSvg){deviceSvg.style.display=''}})}
+    const bodyClassObserver3=new MutationObserver(()=>{const editing=document.body.classList.contains('edit-mode');setHeroInteractive(editing)});
+    bodyClassObserver3.observe(document.body,{attributes:true,attributeFilter:['class']});
+    setHeroInteractive(document.body.classList.contains('edit-mode'));
+    const links=Array.from(document.querySelectorAll('#navLinks .link'));
+    const map=new Map(links.map(a=>[a.getAttribute('href').slice(1),a]));
+    const spy=new IntersectionObserver((entries)=>{entries.forEach(entry=>{const id=entry.target.id;const link=map.get(id);if(!link)return;if(entry.isIntersecting){links.forEach(l=>l.classList.remove('active'));link.classList.add('active')}})},{rootMargin:'-45% 0px -50% 0px',threshold:0});
+    document.querySelectorAll('section[id]').forEach(sec=>{if(sec.id!=='hero') spy.observe(sec)});
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const testiGallery=document.getElementById('testiGallery');
+    const addThumb=document.getElementById('addThumb');
+    function addImageToGallery(dataUrl){
+      const img=document.createElement('img');
+      img.src=dataUrl;
+      img.alt='Image';
+      img.className='thumb zoomable';
+      img.addEventListener('click',()=>{if(!document.body.classList.contains('edit-mode')) openLightbox(img.src)});
+      testiGallery.insertBefore(img,addThumb);
+    }
+    function handleAddThumb(){
+      if(!document.body.classList.contains('edit-mode')) return;
+      const input=document.createElement('input');
+      input.type='file';input.accept='image/*';input.style.position='fixed';input.style.left='-9999px';
+      document.body.appendChild(input);
+      input.addEventListener('change',()=>{
+        const file=input.files&&input.files[0];if(!file){input.remove();return}
+        const reader=new FileReader();
+        reader.onload=()=>{addImageToGallery(reader.result);input.remove()};
+        reader.readAsDataURL(file);
+      });
+      input.click();
+    }
+    if(addThumb){
+      addThumb.addEventListener('click',handleAddThumb);
+      addThumb.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();handleAddThumb()}});
+    }
+    function syncEditorUI(){
+      const editing=document.body.classList.contains('edit-mode');
+      document.querySelectorAll('[data-editor]').forEach(el=>{el.style.display=editing?'':'none'});
+      if(addThumb){addThumb.disabled=!editing;addThumb.setAttribute('aria-hidden',String(!editing))}
+    }
+    syncEditorUI();
+    new MutationObserver(()=>syncEditorUI()).observe(document.body,{attributes:true,attributeFilter:['class']});
+    const uploadResume=document.getElementById('uploadResume');
+    const resumeImg=document.getElementById('resumeImg');
+    if(uploadResume){
+      uploadResume.addEventListener('change',(e)=>{
+        const file=e.target.files&&e.target.files[0];if(!file)return;
+        const reader=new FileReader();
+        reader.onload=()=>{resumeImg.src=reader.result};
+        reader.readAsDataURL(file);
+      });
+    }
+    if(resumeImg){resumeImg.addEventListener('click',()=>{if(!document.body.classList.contains('edit-mode')&&resumeImg.src) openLightbox(resumeImg.src)})}
+  </script>
+
+</body></html>
